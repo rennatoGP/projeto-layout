@@ -1,0 +1,52 @@
+@media(width<930px) {
+   
+    .conteiner__pai__conteudo {
+        display: block;
+    }
+
+    .conteudo__esquerda {
+        width: 100%;
+    }
+
+    .conteudo__direita {
+        width: 100%;
+    }
+    /* formatação cabecalho  */
+    .menu__cabecalho__none{
+        display: none;
+    }
+    .menu_cabecalho{
+        width: 100%;
+    }
+   
+    .pai__lista__2__cabecalho{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .list__menu__none{
+        display: none;
+    }
+    .menu__hamburgue{
+        display: block;
+    }
+    .atendimentos{
+        padding: 10px;
+    }
+
+}
+@media(width<505px){
+    .lista__emprendimento{
+    gap: 20px;        
+    }
+}
+@media(width<1077px){
+   .pai__lista__2__cabecalho{
+    margin-right: 0;
+    gap: 0;
+   } 
+   .pai__lista__1__cabecalho {
+    gap: 10px;
+    margin-right: 0;
+}
+   
+}

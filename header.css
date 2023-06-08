@@ -1,0 +1,85 @@
+.cabecalho {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    display: flex;
+    box-shadow: var(--sombra);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__empresa {
+    width: 250px;
+    height: 100%;
+    background-color: var(--braco);
+}
+.menu_cabecalho{
+    padding: 1rem;
+}
+.pai__lista__1__cabecalho {
+    display: flex;
+    gap: 20px;
+    margin-right: 50px;
+}
+.pai__lista__1__cabecalho a{
+    text-decoration: none;
+    color: var(--braco);
+
+}
+
+.lista__menu__1 {
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.pai__lista__2__cabecalho {
+    display: flex;
+    margin-right: 2rem;
+    gap: 16px;
+    align-items: center;
+
+}
+/* formatação da cor dos icones do .cabecalho cor branca */
+.pai__lista__2__cabecalho img{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(253deg) brightness(105%) contrast(102%);
+    padding-left: 10px;
+
+}
+.lista__menu__2 {
+    padding-left: 1rem;
+    color: var(--braco);
+    font-weight: 600;
+}
+.list__menu__none{
+    border-left: 1px solid var(--braco);
+}
+.menu__hamburgue{
+    display: none;
+}
+
+.span__nome__usuario {
+    font-size: 15px;
+}
+
+.span__gmail__usuario {
+    font-size: 12px;
+    color: var(--cinzaClaro);
+    text-transform: uppercase;
+}
+
+.foto__login {
+    width: 36px;
+    height: 36px;
+    background-color: var(--braco);
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.list__nome__usuario{
+    display: flex;
+    align-items: center;
+}
+.list__icone{
+    border-left:1px solid var(--cinzaClaro) ;
+}
